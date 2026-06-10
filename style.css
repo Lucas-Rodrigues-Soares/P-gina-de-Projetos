@@ -1,0 +1,196 @@
+body {
+  background-color: #000000;
+  margin: 65px
+}
+
+
+
+.fraseComeco {
+  color: blueviolet;
+  margin: 15px 0 25px 0;
+  font-size: 33px;
+  opacity: 0;
+  animation: aparecer 0.7s forwards;
+  transform: transLateY(-50px)
+}
+
+
+
+hr {
+  width: 100px;
+  height: 4px;
+  border-radius: 30px;
+  margin-left: 10px;
+  border: none;
+  background-color: blueviolet;
+  opacity: 0;
+  animation: aparecer 7.9s forwards;
+  transform: transLateX(100px);
+}
+
+
+
+.tituloPrincipal {
+  color: white;
+  margin: 0 0 17px 0;
+  font-size: 52px;
+  opacity: 0;
+  animation: aparecer 4.9s forwards;
+  transform: transLateX(160px);
+}
+
+
+
+.descrisao {
+  color: gray;
+  margin: 0 0 40px 0;
+  font-size: 31px;
+  opacity: 0;
+  animation: aparecer 5.9s forwards;
+  transform: transLateX(-120px)
+}
+
+
+
+.filhos {
+  border: solid 1px #A394F6;
+  background-color: #131316;
+  margin: 19px 10px 35px 10px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #A394F6;
+  height: 329px;
+  width: 886px;
+  opacity: 0;
+  animation: aparecer 6.4s forwards;
+  transform: transLateY(120px);
+}
+
+
+
+.projetoImg {
+  border-radius: 13px;
+  position: absolute;
+  margin: 16px;
+  
+}
+
+
+
+.titulo {
+  text-align: ;
+  margin: 20px 0 18px 337px ;
+  color: white;
+  font-size: 35px;
+  font-family: Georgia
+}
+
+
+
+.subtitulo {
+  color: gray;
+  display: flex;
+  margin: 10px 0 37px 338px;
+  font-size: 31px
+}
+
+
+
+.ferramentas1 {
+  
+  margin: 5px 0 5px 320px;
+  font-size: 37px;
+  color: #A394F6
+}
+
+
+
+.ferramentas2 {
+  margin: 0px 0 50px 320px;
+  font-size: 37px;
+  color: #A394F6
+}
+
+
+
+.seta {
+  display: block;
+  margin-left: 820px;
+  margin-top: -140px;
+  position: absolute
+}
+
+
+
+
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+
+nav {
+  margin: 20px 0 0 0;
+  opacity: 0;
+  animation: aparecer 7.4s forwards;
+  transform: transLateX(-80px);
+}
+
+
+
+.ideia {
+  color: white;
+  font-size: 34px; 
+  margin: 40px 0 0 130px;
+}
+
+
+
+.transforme {
+  color: gray;
+  font-size: 25px;
+  margin: 10px 0 0 134px
+}
+
+
+
+.imgFinal {
+  margin: 0 6px 0 10px;
+  position:absolute
+}
+
+
+
+.contato {
+  color: white;
+  font-size: 30px;
+  border: blueviolet 1px solid;
+  border-radius: 12px;
+  background-color: blueviolet;
+  padding: 19px;
+  margin: 0 0 0 682px;
+  position:absolute;
+  box-shadow: 0 0 14px gray;
+}
+
+
+
+.linhaFinal {
+  width: 100%;
+  height: 0.9px;
+  background-color: gray;
+}
+
+
+
+@keyframes aparecer {
+  
+    to{
+    opacity: 1;
+    transform: transLateY(0)
+    
+  }
+  
+  
+  
+}
