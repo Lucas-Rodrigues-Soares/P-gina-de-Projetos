@@ -3,4 +3,4 @@ Uma página simples com animações de aparecimento que mostram todos meus proje
 
 https://projetos-portifolio-lucas.netlify.app/
 
-<img src="meusProjetos.jpg" height="840" width="2070"> 
+<img src="meusProjetos.jpg" height="1040" width="870"> 
